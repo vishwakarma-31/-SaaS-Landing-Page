@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meridian AI — The AI Workspace That Thinks Before You Do</title>
+  <meta name="description" content="Meridian connects your notes, tasks, docs, and calendar — then uses AI to surface what matters, before you have to ask. Join 4,200+ teams.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container-main">
+      <a href="#" class="nav-logo" aria-label="Meridian AI Home">
+        <div class="nav-logo-icon"></div>
+        <span>Meridian</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+      </div>
+      <div class="nav-cta">
+        <a href="#cta" class="btn btn-primary">Get Early Access</a>
+      </div>
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#features" class="mobile-link">Features</a>
+    <a href="#how-it-works" class="mobile-link">How it Works</a>
+    <a href="#pricing" class="mobile-link">Pricing</a>
+    <a href="#testimonials" class="mobile-link">Testimonials</a>
+    <a href="#cta" class="btn btn-primary btn-lg">Get Early Access</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-dots"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-beam"></div>
+    </div>
+    <div class="container-main">
+      <div class="hero-content">
+        <div class="hero-badge hero-stagger">
+          <span class="pulse-dot"></span>
+          Now in Public Beta — Join 4,200+ teams
+        </div>
+        <h1 class="hero-stagger">Stop Searching.<br>Start <span>Knowing.</span></h1>
+        <p class="hero-sub hero-stagger">Meridian AI connects your entire workspace — notes, tasks, docs, calendar — and surfaces what matters before you have to ask. Your second brain, actually intelligent.</p>
+        <div class="hero-ctas hero-stagger">
+          <a href="#cta" class="btn btn-primary btn-lg">Start Free — No Credit Card</a>
+          <a href="#" class="btn btn-ghost btn-lg"><i data-lucide="play-circle" style="width:18px;height:18px"></i> Watch Demo</a>
+        </div>
+        <p class="hero-proof hero-stagger">Trusted by teams at Stripe, Notion, Linear, and 800+ startups</p>
+      </div>
+      <div class="hero-visual hero-stagger" id="heroVisual">
+        <div class="hero-dashboard" id="heroDashboard">
+          <div class="dash-header">
+            <div class="dash-avatar">✦</div>
+            <span class="dash-title">Today's Briefing</span>
+            <span class="dash-date">Mar 30, 2026</span>
+          </div>
+          <div class="dash-items">
+            <div class="dash-item">
+              <span class="dash-item-dot" style="background:#4F8EF7"></span>
+              <span><strong>Q2 Planning Doc</strong> was updated by 3 teammates — key changes in revenue targets section.</span>
+            </div>
+            <div class="dash-item">
+              <span class="dash-item-dot" style="background:#8B5CF6"></span>
+              <span><strong>Design Review</strong> at 2:00 PM — Figma link and last week's feedback attached.</span>
+            </div>
+            <div class="dash-item">
+              <span class="dash-item-dot" style="background:#34D399"></span>
+              <span>3 overdue tasks in <strong>Sprint 14</strong> — recommended priority reorder ready.</span>
+            </div>
+          </div>
+          <div class="dash-actions">
+            <button class="dash-action">View Details</button>
+            <button class="dash-action">Reschedule</button>
+            <button class="dash-action">Summarize</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOGOS ===== -->
+  <section class="logos-section reveal" id="logos">
+    <div class="container-main">
+      <p class="logos-label">Trusted by teams at world-class companies</p>
+      <div class="logos-row">
+        <span class="logo-word">Stripe</span>
+        <span class="logo-word">Vercel</span>
+        <span class="logo-word">Notion</span>
+        <span class="logo-word">Linear</span>
+        <span class="logo-word">Figma</span>
+        <span class="logo-word">Loom</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section id="features">
+    <div class="container-main">
+      <div class="text-center">
+        <p class="eyebrow reveal">Features</p>
+        <h2 class="section-heading reveal">Everything you need.<br>Nothing you don't.</h2>
+        <p class="section-sub reveal">Meridian replaces the chaos of five tools with one intelligent layer that knows your context.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon"><i data-lucide="brain"></i></div>
+          <h3>Context-Aware AI</h3>
+          <p>Ask anything. Meridian searches across your notes, tasks, and docs to give you answers that actually make sense in your context — not generic GPT responses.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon"><i data-lucide="zap"></i></div>
+          <h3>Daily Briefings</h3>
+          <p>Every morning, Meridian surfaces what needs your attention today — overdue tasks, upcoming meetings, unread follow-ups — ranked by what matters.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon"><i data-lucide="link"></i></div>
+          <h3>Universal Connect</h3>
+          <p>Notion, Linear, Gmail, Slack, Google Calendar. Meridian pulls from everywhere and treats it as one unified knowledge base.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon"><i data-lucide="shield"></i></div>
+          <h3>Private by Design</h3>
+          <p>Your data never trains our models. SOC 2 Type II certified. On-premise available for enterprise. You own your knowledge.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon"><i data-lucide="layers"></i></div>
+          <h3>Smart Templates</h3>
+          <p>Pre-built AI workflows for weekly reviews, project kickoffs, meeting summaries, and decision logs — customize or build your own.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon"><i data-lucide="trending-up"></i></div>
+          <h3>Team Intelligence</h3>
+          <p>Share AI-powered summaries, link knowledge across teammates, and stop answering the same questions twice.</p>
+        </div>
+      </div>
+
+      <!-- Wide Feature -->
+      <div class="wide-feature reveal">
+        <div class="wide-feature-text">
+          <p class="eyebrow">AI Briefing Engine</p>
+          <h3>Your morning briefing, written by AI that actually knows your work.</h3>
+          <p>Every day at 8am, Meridian reads your calendar, scans your open tasks, checks what's changed in your docs, and writes a human-readable briefing. No prompts. No setup. Just answers.</p>
+        </div>
+        <div class="wide-feature-mockup">
+          <div class="wf-header">☀️ Good Morning, Alex</div>
+          <div class="wf-sub">Tuesday, Mar 30 · 3 items need attention</div>
+          <div class="wf-items">
+            <div class="wf-item"><span class="wf-item-icon"><i data-lucide="alert-circle" style="width:14px;height:14px"></i></span> Sprint review moved to 3 PM — agenda updated</div>
+            <div class="wf-item"><span class="wf-item-icon"><i data-lucide="file-text" style="width:14px;height:14px"></i></span> New comments on API spec — 2 unresolved threads</div>
+            <div class="wf-item"><span class="wf-item-icon"><i data-lucide="check-circle" style="width:14px;height:14px"></i></span> 5 of 8 tasks complete for Milestone 2</div>
+          </div>
+          <div class="wf-actions">
+            <span class="wf-action">→ Open Tasks</span>
+            <span class="wf-action">→ Calendar</span>
+            <span class="wf-action">→ Ask AI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section id="how-it-works">
+    <div class="container-main">
+      <div class="text-center">
+        <p class="eyebrow reveal">How It Works</p>
+        <h2 class="section-heading reveal">Set up in minutes.<br>Value from day one.</h2>
+        <p class="section-sub reveal">Three simple steps to transform how you work.</p>
+      </div>
+      <div class="steps-row">
+        <div class="step-card reveal reveal-delay-1">
+          <div class="step-number">01</div>
+          <h3>Connect Your Stack</h3>
+          <p>Link Notion, Gmail, Linear, Slack, and Calendar in under 3 minutes. One-click OAuth, no API keys.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-2">
+          <div class="step-number">02</div>
+          <h3>Meridian Learns</h3>
+          <p>Our AI indexes your workspace privately. Within hours, it understands your projects, priorities, and context.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-3">
+          <div class="step-number">03</div>
+          <h3>Ask Anything</h3>
+          <p>Chat naturally or let Meridian surface insights automatically. Your knowledge, finally accessible.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats-section reveal" id="stats">
+    <div class="container-main">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-value" data-target="4200" data-prefix="" data-suffix="+">0</div>
+          <div class="stat-label">Teams using Meridian</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" data-target="2.4" data-prefix="" data-suffix="hrs" data-decimal="true">0</div>
+          <div class="stat-label">Saved per person per week</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" data-target="99.9" data-prefix="" data-suffix="%" data-decimal="true">0</div>
+          <div class="stat-label">Uptime SLA</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" data-target="0" data-prefix="SOC " data-suffix="" data-static="SOC 2">SOC 2</div>
+          <div class="stat-label">Type II Certified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section id="pricing">
+    <div class="container-main">
+      <div class="text-center">
+        <p class="eyebrow reveal">Pricing</p>
+        <h2 class="section-heading reveal">Simple, honest pricing.</h2>
+        <p class="section-sub reveal">Start free. Upgrade when Meridian becomes indispensable — and it will.</p>
+      </div>
+      <div class="pricing-toggle reveal">
+        <span class="active" id="monthlyLabel">Monthly</span>
+        <div class="toggle-switch" id="pricingToggle" role="switch" aria-checked="false" tabindex="0"></div>
+        <span id="annualLabel">Annual</span>
+        <span class="save-badge">Save 20%</span>
+      </div>
+      <div class="pricing-grid">
+        <!-- Starter -->
+        <div class="pricing-card reveal reveal-delay-1">
+          <h3>Starter</h3>
+          <p class="plan-desc">For individuals exploring AI-powered work.</p>
+          <div class="price" data-monthly="$0" data-annual="$0">$0</div>
+          <div class="price-period">per month</div>
+          <ul class="pricing-features">
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Up to 3 integrations</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> 100 AI queries/month</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> 7-day briefing history</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Community support</li>
+          </ul>
+          <a href="#" class="btn btn-ghost">Get Started Free</a>
+        </div>
+        <!-- Pro -->
+        <div class="pricing-card featured reveal reveal-delay-2">
+          <span class="pricing-badge">Most Popular</span>
+          <h3>Pro</h3>
+          <p class="plan-desc">For professionals who live in their tools.</p>
+          <div class="price" data-monthly="$24" data-annual="$19">$24</div>
+          <div class="price-period">per month</div>
+          <ul class="pricing-features">
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Unlimited integrations</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Unlimited AI queries</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Full briefing history</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Priority support</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Custom AI workflows</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Team sharing (up to 5)</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Start Free Trial</a>
+        </div>
+        <!-- Enterprise -->
+        <div class="pricing-card reveal reveal-delay-3">
+          <h3>Enterprise</h3>
+          <p class="plan-desc">For teams that need security, scale, and control.</p>
+          <div class="price" data-monthly="Custom" data-annual="Custom">Custom</div>
+          <div class="price-period">&nbsp;</div>
+          <ul class="pricing-features">
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> On-premise deployment</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> SSO / SAML</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> SOC 2 audit reports</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Dedicated success manager</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Custom contracts & SLA</li>
+            <li><i data-lucide="check" style="width:16px;height:16px"></i> Unlimited seats</li>
+          </ul>
+          <a href="#" class="btn btn-ghost">Talk to Sales</a>
+        </div>
+      </div>
+      <p class="pricing-bottom-note reveal">All plans include a 14-day free trial. No credit card required.</p>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials">
+    <div class="container-main">
+      <div class="text-center">
+        <p class="eyebrow reveal">Testimonials</p>
+        <h2 class="section-heading reveal">Loved by teams who ship fast.</h2>
+        <p class="section-sub reveal">Don't take our word for it — hear from the teams using Meridian every day.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <p class="testimonial-quote">"Meridian replaced three tools I was paying for. The daily briefing alone saves me 45 minutes every morning."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SK</div>
+            <div>
+              <div class="testimonial-name">Sarah K.</div>
+              <div class="testimonial-role">Head of Product · Vercel</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="testimonial-quote">"I asked it to summarize everything that happened on the Payments project while I was on vacation. It did it in 8 seconds. I nearly cried."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">JR</div>
+            <div>
+              <div class="testimonial-name">James R.</div>
+              <div class="testimonial-role">Engineering Lead · Stripe</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="testimonial-quote">"Our onboarding time dropped by 60% because new hires can just ask Meridian anything instead of pinging the whole team."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">PM</div>
+            <div>
+              <div class="testimonial-name">Priya M.</div>
+              <div class="testimonial-role">VP of Engineering · Linear</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="testimonial-quote">"Finally, an AI tool that doesn't feel like it was built for a demo. This is a real product."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">TB</div>
+            <div>
+              <div class="testimonial-name">Tom B.</div>
+              <div class="testimonial-role">Founder · Loom</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="testimonial-quote">"The context-awareness is unlike anything I've used. It knows I'm working on Q4 planning before I even say anything."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AW</div>
+            <div>
+              <div class="testimonial-name">Alex W.</div>
+              <div class="testimonial-role">COO · Figma</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section" id="cta">
+    <div class="container-main">
+      <div class="cta-content">
+        <h2 class="reveal">Your knowledge is already there.<br>Let AI connect it.</h2>
+        <p class="reveal">Join 4,200+ teams using Meridian to work smarter. Free to start, no credit card required.</p>
+        <div class="cta-ctas reveal">
+          <a href="#" class="btn btn-white btn-lg">Get Early Access — It's Free</a>
+          <a href="#" class="btn btn-ghost-white btn-lg">Book a Demo</a>
+        </div>
+        <p class="cta-note reveal">Setup takes 3 minutes. No engineers needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-glow"></div>
+    <div class="container-main">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo"><div class="nav-logo-icon"></div><span>Meridian</span></a>
+          <p class="footer-tagline">The AI workspace that thinks before you do.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Twitter"><i data-lucide="twitter" style="width:18px;height:18px"></i></a>
+            <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:18px;height:18px"></i></a>
+            <a href="#" aria-label="GitHub"><i data-lucide="github" style="width:18px;height:18px"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#">Features</a><a href="#">Pricing</a><a href="#">Changelog</a><a href="#">Roadmap</a><a href="#">Status</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About</a><a href="#">Blog</a><a href="#">Careers</a><a href="#">Press</a><a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Security</a><a href="#">Cookie Policy</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2025 Meridian AI, Inc. · Built with care for people who do real work.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
